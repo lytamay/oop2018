@@ -9,38 +9,24 @@ public class Week3Test {
     Week3 test =new Week3();
     @Test;
         public void testMax1(){
-            int i= test.max(7,9);
-            assertEquals(9,i);
-            int j= test.max(20,8);
-            assertEquals(20,i);
-            int a=test.max(15,19 );
-            assertEquals(19, a);
-            int b= test.max(-1, 6);
-            assertEquals(6, b);
-            int c= test.max(0,9);
-            assertEquals(9, c);
+            assertEquals(9,test.max(7,9));
+            assertEquals(20,test.max(20,8));
+            assertEquals(19, test.max(15,19 ));
+            assertEquals(6, test.max(-1, 6));
+            assertEquals(9, test.max(0,9));
         }
         @Test;
         public void testmin(){
             int[] a={4,6,8,5,3,9};
-            int i=test.minOfArray(a);
-            assertEquals(3,i);
-
+            assertEquals(3,test.minOfArray(a));
             int[] b= { 1,1};
-            int j=test.minOfArray(b);
-            assertEquals(1,j);
-
+            assertEquals(1,test.minOfArray(b));
             int[] c={66,0,-1,8,9};
-            int k=test.minOfArray(c);
-            assertEquals(-1,k);
-
+            assertEquals(-1,test.minOfArray(c));
             int[] d={100,-11,2,1,-3};
-            int h=test.minOfArray(d);
-            assertEquals(-11,h);
-
+            assertEquals(-11, test.minOfArray(d));
             int[] e={22, 0, 33.4, 7};
-            int l= test.minOfArray(e);
-            assertEquals(0,l);
+            assertEquals(0,test.minOfArray(e));
         }
         public void setBMI(){
             assertEquals("Binh Thuong", test.calculateBMI(52,1.52););
