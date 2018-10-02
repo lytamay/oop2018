@@ -32,13 +32,13 @@ public class Week3 {
     	if(BMI<18.5 ) {
     		return "thieu can";
     	}
-    	else if(BMI>=18.5&& BMI<=22.99) {
+    	else if(BMI>=18.5&& BMI<23) {
     		return "Binh Thuong";
     	}
-    	else if(BMI>=23&& BMI<=24.99) {
+    	else if(BMI>=23&& BMI<25) {
     		return "Thua can";
     	}
-    	else if(BMI>=25) {
+    	else  {
     		return "Beo phi";
     	}
         // TODO: Viết chương trình tính chỉ số BMI và in ra kết quả đánh giá
