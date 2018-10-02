@@ -29,16 +29,11 @@ public class Week3Test {
             assertEquals(0,test.minOfArray(e));
         }
         public void setBMI(){
-            assertEquals("Binh Thuong", test.calculateBMI(52,1.52););
-            assertEquals("Beo phi",test.calculateBMI(70, 1.65););
-            assertEquals("thieu can",test.calculateBMI(45, 1.63););
-            assertEquals("Thua can", test.calculateBMI(60, 1.58););
-            assertEquals("Binh Thuong",test.calculateBMI(58, 1.59););
+            assertEquals("Binh Thuong", test.calculateBMI(52,1.52));
+            assertEquals("Beo phi",test.calculateBMI(70, 1.65));
+            assertEquals("thieu can",test.calculateBMI(45, 1.63));
+            assertEquals("Thua can", test.calculateBMI(60, 1.58));
+            assertEquals("Binh Thuong",test.calculateBMI(58, 1.59));
         }
 
-    // TODO: Viết 5 testcase cho phương thức max()
-
-    // TODO: Viết 5 testcase cho phương thức minOfArray()
-
-    // TODO: Viết 5 testcase cho phương thức calculateBMI()
 }
