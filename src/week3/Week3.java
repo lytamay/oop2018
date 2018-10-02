@@ -30,16 +30,16 @@ public class Week3 {
     public static String calculateBMI(double weight, double height) {
     	double  BMI = weight/(height*height);
     	if(BMI<18.5 ) {
-    		System.out.println("thieu can");
+    		return "thieu can";
     	}
     	else if(BMI>=18.5&& BMI<=22.99) {
-    		System.out.println("Binh Thuong");
+    		return "Binh Thuong";
     	}
     	else if(BMI>=23&& BMI<=24.99) {
-    		System.out.println("Thua can");
+    		return "Thua can";
     	}
     	else if(BMI>=25) {
-    		System.out.println("Beo phi");
+    		return "Beo phi";
     	}
         // TODO: Viết chương trình tính chỉ số BMI và in ra kết quả đánh giá
         return null;
