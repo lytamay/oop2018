@@ -25,7 +25,7 @@ public class Week3Test {
             assertEquals(-1,test.minOfArray(c));
             int[] d={100,-11,2,1,-3};
             assertEquals(-11, test.minOfArray(d));
-            int[] e={22, 0, 33.4, 7};
+            int[] e={22, 0, 33, 7};
             assertEquals(0,test.minOfArray(e));
         }
         public void setBMI(){
