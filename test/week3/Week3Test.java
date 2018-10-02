@@ -28,6 +28,8 @@ public class Week3Test {
             int[] e={22, 0, 33, 7};
             assertEquals(0,test.minOfArray(e));
         }
+
+        @Test;
         public void setBMI(){
             assertEquals("Binh Thuong", test.calculateBMI(52,1.52));
             assertEquals("Beo phi",test.calculateBMI(70, 1.65));
