@@ -1,5 +1,5 @@
 package week3;
-import week3.Week3.java;
+//import week3.Week3.java;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -15,10 +15,10 @@ public class Week3Test {
             assertEquals(20,i);
             int a=test.max(15,19 );
             assertEquals(19, a);
-            int b= test.max(11.2, 6);
-            assertEquals(11.2, b);
-            int c= test.max(100,9);
-            assertEquals(100, c);
+            int b= test.max(-1, 6);
+            assertEquals(6, b);
+            int c= test.max(0,9);
+            assertEquals(9, c);
         }
         @Test;
         public void testmin(){
