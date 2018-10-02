@@ -1,5 +1,5 @@
 package week3;
-//import week3.Week3.java;
+import week3.Week3.java;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
