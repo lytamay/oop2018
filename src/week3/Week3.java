@@ -35,7 +35,7 @@ public class Week3 {
     	else if(BMI>=18.5&& BMI<=22.99) {
     		System.out.println("Binh Thuong");
     	}
-    	else if(BMI>=23&& BMI<=24) {
+    	else if(BMI>=23&& BMI<=24.99) {
     		System.out.println("Thua can");
     	}
     	else if(BMI>=25) {
