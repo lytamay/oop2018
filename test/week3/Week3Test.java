@@ -42,4 +42,7 @@ public class Week3Test {
         assertEquals("thieu can", Week3.calculateBMI(50, 1.65));
         assertEquals("Thua can", Week3.calculateBMI(71, 1.68));
     }
+    public static void main(String[] args){
+        System.out.println(Week3.calculateBMI(71,1.68));
+    }
 }
