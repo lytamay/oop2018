@@ -44,8 +44,6 @@ public class Week3 {
         // TODO: Viết chương trình tính chỉ số BMI và in ra kết quả đánh giá
         return null;
     }
-
-	
 }
 
 
