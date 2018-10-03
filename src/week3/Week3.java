@@ -1,4 +1,4 @@
-﻿/*package week3;
+﻿package week3;
 
 public class Week3 {
 	public static int max(int m, int n) {
@@ -26,7 +26,7 @@ public class Week3 {
      * @param weight cân nặng
      * @param height chiều cao
      * @return Thiếu cân, Bình thường, Thừa cân, Béo phì
-     *//*
+     */
     public static String calculateBMI(double weight, double height) {
     	double  BMI = weight/(height*height);
     	if(BMI<18.5 ) {
@@ -44,8 +44,7 @@ public class Week3 {
         // TODO: Viết chương trình tính chỉ số BMI và in ra kết quả đánh giá
         return null;
     }
-}*/
-
+}
 
 package week3;
 
@@ -72,7 +71,7 @@ public class Week3 {
 	 * @param weight cân nặng
 	 * @param height chiều cao
 	 * @return Thiếu cân, Bình thường, Thừa cân, Béo phì
-	 */
+	 *//*
 	public static String calculateBMI(double weight, double height) {
 		// TODO: Viết chương trình tính chỉ số BMI và in ra kết quả đánh giá
 		double BMI = weight/(height * height);
@@ -86,3 +85,4 @@ public class Week3 {
 			return "Béo phì";
 	}
 }
+*/
