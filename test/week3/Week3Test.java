@@ -21,16 +21,16 @@ public class Week3Test {
     // TODO: Viết 5 testcase cho phương thức minOfArray()
     @Test
     public void testminOfArray() {
-        int[] testArray1 = {1, 7, 8, 10, -5, 4};
-        int[] testArray2 = {-1, 34, 53, 65, 2, 5424, 35, 235, 46};
-        int[] testArray3 = {2, 8, 23, 423, 4, -5};
-        int[] testArray4 = {2, 54, 23, 4, -100, 523, 45, 2, 24, 32, 4, 234, 4, 1};
-        int[] testArray5 = {2, 3, 3, 4234, 2345, 2345, 24, 5234, 5432, 5, 4};
-        assertEquals(-5, Week3.minOfArray(testArray1));
-        assertEquals(-1, Week3.minOfArray(testArray2));
-        assertEquals(-5, Week3.minOfArray(testArray3));
-        assertEquals(-100, Week3.minOfArray(testArray4));
-        assertEquals(2, Week3.minOfArray(testArray5));
+        int[] Array1 = {1, 7, 8, 10, -5, 4};
+        int[] Array2 = {-1, 34, 53, 65, 2, 5424, 35, 235, 46};
+        int[] Array3 = {2, 8, 23, 423, 4, -5};
+        int[] Array4 = {2, 54, 23, 4, -100, 523, 45, 2, 24, 32, 4, 234, 4, 1};
+        int[] Array5 = {2, 3, 3, 4234, 2345, 2345, 24, 5234, 5432, 5, 4};
+        assertEquals(-5, Week3.minOfArray(Array1));
+        assertEquals(-1, Week3.minOfArray(Array2));
+        assertEquals(-5, Week3.minOfArray(Array3));
+        assertEquals(-100, Week3.minOfArray(Array4));
+        assertEquals(2, Week3.minOfArray(Array5));
     }
 
     // TODO: Viết 5 testcase cho phương thức calculateBMI()
@@ -43,6 +43,6 @@ public class Week3Test {
         assertEquals("Thua can", Week3.calculateBMI(71, 1.68));
     }
     public static void main(String [] args){
-        System.out.println(Week.calculateBMI(66, 1.77));
+        System.out.println(Week3.calculateBMI(66, 1.77));
     }
 }
