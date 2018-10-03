@@ -5,8 +5,10 @@ public class Week3 {
 
 	public static int max(int m, int n) {
 		// TODO: Tìm giá trị lớn nhất của hai số nguyên, giá trị trả về của hàm là số lớn nhất
-		if(m > n)
+		if(m > n) {
 			return m;
+		}
+		else;
 		return n;
 	}
 
@@ -14,8 +16,9 @@ public class Week3 {
 		// TODO: Tìm giá trị nhỏ nhất của của một mảng số nguyên (kích thước mảng <= 100 phần tử)
 		int min = array[0];
 		for(int i=1;i<array.length; i++)
-			if(array[i] < min)
+			if(array[i] < min) {
 				min = array[i];
+			}
 		return min;
 	}
 
