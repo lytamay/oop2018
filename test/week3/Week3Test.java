@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 
 public class Week3Test {
-    @Test;
+        @Test;
         public void testMax1(){
             assertEquals(9,Week3.max(7,9));
             assertEquals(20,Week3.max(20,8));
