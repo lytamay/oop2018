@@ -1,89 +1,44 @@
-/*
 package week3;
-
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+import static week3.Week3.*;
 
 public class Week3Test {
 
+
     // TODO: Viết 5 testcase cho phương thức max()
     @Test
-    public void testMax1() {
-        assertEquals(5, Week3.max(5, 3));
-        assertEquals(30, Week3.max(7, 30));
-        assertEquals(-3, Week3.max(-3, -10));
-        assertEquals(6, Week3.max(-100, 6));
-        assertEquals(1, Week3.max(1, 0));
-
+    public void testMax(){
+        assertEquals(1,max(1,0));
+        assertEquals(5,max(4,5));
+        assertEquals(10,max(1,10));
+        assertEquals(-1,max(-1,-10));
+        assertEquals(60,max(60,50));
     }
-
     // TODO: Viết 5 testcase cho phương thức minOfArray()
     @Test
-    public void testminOfArray() {
-        int[] Array1 = {1, 7, 8, 10, -5, 4};
-        int[] Array2 = {-1, 34, 53, 65, 2, 5424, 35, 235, 46};
-        int[] Array3 = {2, 8, 23, 423, 4, -5};
-        int[] Array4 = {2, 54, 23, 4, -100, 523, 45, 2, 24, 32, 4, 234, 4, 1};
-        int[] Array5 = {2, 3, 3, 4234, 2345, 2345, 24, 5234, 5432, 5, 4};
-        assertEquals(-5, Week3.minOfArray(Array1));
-        assertEquals(-1, Week3.minOfArray(Array2));
-        assertEquals(-5, Week3.minOfArray(Array3));
-        assertEquals(-100, Week3.minOfArray(Array4));
-        assertEquals(2, Week3.minOfArray(Array5));
+    public void testMinOfArray(){
+        int[] a={1,2,3,5,4};
+        int[] a1 ={9,8,7,6,3,5,4,2,1,10};
+        int[] a2 ={-1,-1,1,20,10};
+        int[] a3 ={6,7,8,5,4,-2,5,-1};
+        int[] a4 ={11,12,13,14,19,10,-1,-2,9,-5,-9,3};
+        //int[] a5 ={100,200,300,111,11,2,-3,-4,0};
+        assertEquals(1,minOfArray(a));
+        assertEquals(1,minOfArray(a1));
+        assertEquals(-1,minOfArray(a2));
+        assertEquals(-2,minOfArray(a3));
+        assertEquals(-9,minOfArray(a4));
     }
-
-    // TODO: Viết 5 testcase cho phương thức calculateBMI()
     @Test
-    public void testBMI() {
-        assertEquals("Binh Thuong", Week3.calculateBMI(66, 1.77));
-        assertEquals("Binh Thuong", Week3.calculateBMI(52, 1.65));
-        assertEquals("Beo phi", Week3.calculateBMI(74, 1.66));
-        assertEquals("thieu can", Week3.calculateBMI(50, 1.65));
-        assertEquals("Thua can", Week3.calculateBMI(71, 1.68));
+    public void testCalculateBMI(){
+        //assertEquals("Thieu can",calculateBMI(50,1.67));
+        assertEquals("Beo phi",calculateBMI(60,1.51));
+        assertEquals("Binh thuong",calculateBMI(50,1.49));
+        assertEquals("Thieu can",calculateBMI(40,1.5));
+        assertEquals("Thua can",calculateBMI(70,1.7));
     }
+    // TODO: Viết 5 testcase cho phương thức calculateBMI()
 }
-*/
-package week3;
-import org.junit.Test;
-import static org.junit.Assert.*;
-
-public class Week3Test(){
-    @Test;
-    public void testMax(){
-        assertEquals(5,Week3.max(5,3));
-        assertEquals(30,Week3.max(7,30));
-        assertEquals(-3,Week3.max(-3,-10));
-        assertEquals(6,Week3.max(-100,6));
-        assertEquals(1,Week3.max(1,0));
-        }
-    @Test;
-    public void testminofArray(){
-        int[]Array1={1,7,8,10,-5,4};
-        int[]Array2={-2,34,53,65,6,7,345,566};
-        int[]Array3={0,33,55,33,-2,456,-1};
-        int[]Array4={17,3,8,12,44,6,765,0,-34};
-        int[]Array5={353,-3,39,-2,-19};
-        assertEquals(-5,Week3.minofArray(Array1));
-        assertEquals(-2,Week3.minofArray(Array2));
-        assertEquals(-2,Week3.minofArray(Array3));
-        assertEquals(-34,Week3.minofArray(Array4));
-        assertEquals(-19,Week3.minofArray(Array5));
-
-    }
-
-    @Test;
-    public void testBMI(){
-        assertEquals("Binh thuong",Week3.calculateBMI(66,1.77));
-        assertEquals("Binh thuong",Week3.calculateBMI(52,1.65));
-        assertEquals("Beo phi",Week3.calculateBMI(74,1.66));
-        assertEquals("Thieu can",Week3.calculateBMI(50,1.65));
-        assertEquals("Thua can",Week3.calculateBMI(71,1.68));
-        }
-}
-
-
-
-
-
-
