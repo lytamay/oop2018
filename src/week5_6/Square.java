@@ -46,7 +46,4 @@ public class Square extends Rectangle{
 		return super.getDai()*super.getRong();
 	}
 	
-	public String toString() {
-		return 
-	}
 }
