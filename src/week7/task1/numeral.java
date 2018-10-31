@@ -1,4 +1,4 @@
-package cau1;
+package week7.task1;
 
 public class numeral extends Expression{
 	private int value;

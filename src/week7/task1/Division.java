@@ -1,4 +1,4 @@
-package cau1;
+package week7.task1;
 
 public class Division  extends BynaryExpression {
 	Expression left;
